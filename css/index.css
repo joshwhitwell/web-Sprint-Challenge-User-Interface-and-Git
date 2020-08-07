@@ -78,7 +78,7 @@ a {
     color: black;
 }
 
-/*Header Section*/
+/*Home & About Page Header Sections*/
 .navContainer {
     display: flex;
     justify-content: flex-start;
@@ -96,7 +96,7 @@ a {
     margin: 2.5% 0;
 }
 
-/*Top Content Section*/
+/*Home & About Page Top Content Sections*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +111,12 @@ a {
     padding-bottom: 20px;  
 }
 
+/*About Page About Section*/
+.text-container.aboutContainer {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
 
 /*Middle Content Section*/
 .middle-content {
@@ -132,12 +138,77 @@ a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+/*About Middle Content Section*/
+.aboutMiddleContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.aboutMiddleContainer {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin: 20px 0; 
+    border-bottom: 1px dashed black; 
+}
+
+.aboutMiddleContainer h2, .aboutMiddleContainer p, .aboutMiddleContainer a {
+    margin: 5% 0;
+}
+
+.aboutMiddleContainer a {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1% 3%;
 }
 
 /*Bottom Content Section*/
