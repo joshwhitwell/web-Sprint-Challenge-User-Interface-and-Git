@@ -34,15 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is way of ascribing meaning and structure to content on a webpage. Semantic HTML has 2 primary purposes: 1) to tell the browser how to render a given element on a webpage, and 2) to describe the meaning and structure of a webpage to other developers, and for accesibility purposes such as screen readers and for search engine functionality. Semantic HTML is assigned to content on a page using semantic tags, which are tags whose name refers to the meaning of the content. Examples of semantic HTML tags are paragraph, header, and nav, where the tag name itself describes the purpose of the content inside. Semantic tags are differentiated from non-semantic tags like div and span because those tags are used for styling and grouping purposes only, and do not convey meaning.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Two main differences between display: block and display: inline are: 1) a block level element always starts on a new line, whereas inline elements do not start on a new line; 2) block level elements take up the entire width of the page by default, whereas inline elements only take up as much width as their content.
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are: 1) content itself (e.g. text or image); 2) padding (space between the content and the border of the box); 3) border (a border that contains padding and content); 4) margin (the space that exists outside the border between one element and another).
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+In the flexbox module, align-items: center defines the behavior of how items are laid out on the cross axis of the flexbox. When the flexbox container flex-direction is set to row then the cross axis will be the vertical axis; when the flex direction is set to column then the cross axis will be the horizontal axis.
 
 5. Explain why git is valuable to a team of developers.
 
+Git is a version control system which tracks changes made to files over time. Git allows developers to work on projects at the same time with others, and merge independent changes automatically without redundancy and checking for errors. This happens through a process called branching and merging. Version control is important to maintain documentation of all the changes to a project over time in a single place. Version control is also important for projects with multiple collaborators so that multiple versions of a single project can be worked on simultaneously and later merged without altering the integrity of the original.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
+
 
 ## Project Set Up
 
