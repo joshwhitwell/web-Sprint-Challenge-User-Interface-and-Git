@@ -14,7 +14,7 @@ You have three hours to complete this challenge. Plan your time accordingly.
 
 ## Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager.
+Commit your code regularly and meaningfully. This helps both you in case you ever need to return to old code for any number of reasons and your project manager.
 
 ## Description
 
@@ -38,7 +38,7 @@ Semantic HTML is way of ascribing meaning and structure to content on a webpage.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Two main differences between display: block and display: inline are: 1) a block level element always starts on a new line, whereas inline elements do not start on a new line; 2) block level elements take up the entire width of the page by default, whereas inline elements only take up as much width as their content.
+Two main differences between ```display: block;``` and ```display: inline;``` are: 1) a block level element always starts on a new line, whereas inline elements do not start on a new line; 2) block level elements take up the entire width of the page by default, whereas inline elements only take up as much width as their content.
 
 3. What are the 4 areas of the box model?
 
@@ -46,11 +46,11 @@ The four areas of the box model are: 1) content itself (e.g. text or image); 2) 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-In the flexbox module, align-items: center defines the behavior of how items are laid out on the cross axis of the flexbox. When the flexbox container flex-direction is set to row then the cross axis will be the vertical axis; when the flex direction is set to column then the cross axis will be the horizontal axis.
+In the flexbox module, ```align-items: center``` defines the behavior of how items are laid out on the cross axis of the flexbox. When the flexbox container ```flex-direction``` is set to row then the cross axis will be the vertical axis; when the ```flex-direction``` is set to column then the cross axis will be the horizontal axis.
 
 5. Explain why git is valuable to a team of developers.
 
-Git is a version control system which tracks changes made to files over time. Git allows developers to work on projects at the same time with others, and merge independent changes automatically without redundancy and checking for errors. This happens through a process called branching and merging. Version control is important to maintain documentation of all the changes to a project over time in a single place. Version control is also important for projects with multiple collaborators so that multiple versions of a single project can be worked on simultaneously and later merged without altering the integrity of the original.
+Git is a version control system which tracks changes made to files over time. Git allows developers to work on projects at the same time with others, and merge independent changes automatically without redundancy or errors. This happens through a process called branching and merging. Version control is important to maintain documentation of all the changes to a project over time in a single place. Version control is also important for projects with multiple collaborators so that multiple versions of a single project can be worked on simultaneously and later merged without altering the integrity of the original.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
